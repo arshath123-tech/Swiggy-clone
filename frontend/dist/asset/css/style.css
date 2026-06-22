@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Mulish', 'sans-serif';
+    background-color:#ffffff;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 0px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.left i{
+    color: #ff5100;
+}
+
+.left span{
+    font-weight: 700;
+    font-size: 16pt;
+    text-decoration: underline;
+}
+
+.left img{
+    height: 48px ;
+    width: 48px;
+}
+
+.right{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right h3{
+    cursor: pointer;
+}
+.right h3:hover{
+     color: #ff5100;
+     text-decoration: underline;
+
+}
+
+.hero-section{
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+}
+
+.hero-section h2{
+    text-align: start;
+
+}
+
+.category{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.category img{
+    height: 184px;
+    width: 144px;
+}
+
+hr{
+    opacity: 0.2;
+}
+
+
+
+
+
+
+ .title{
+    margin-top: 0px;
+    font-size: 23px;
+    text-align: start;
+
+}
+
+.restaurant{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     padding-top: 30px;
+}
+
+
+.restaurant-header1{
+   
+    background: url('../image/Mc.avif') center no-repeat;
+    
+
+}
+
+.common{
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    font-weight: 800;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    text-shadow: 1px 1px 2px rgb(0, 0,0,0.7);
+    font-family: 'Moulish',sans-serif;
+     width: 250px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 9%;
+}
+
+.desc{
+    padding: 10px;
+    text-align: start;
+}
+
+.desc p {
+    margin: 4px;
+}
+
+.restaurant-header2{
+   background-image: url('../image/subway.avif');
+
+}
+
+.restaurant-header3{
+    background-image: url('../image/waffle.avif');
+}
+
+.restaurant-header4{
+    background-image: url('../image/kfc.avif');
+}
+
+
+
+.filter{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.filter li:hover{
+     background-color: rgb(246, 240, 240);
+     padding: 8px;
+}
+
+.filter li{
+    border: 1px dotted black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.footer{
+    background-color: #f0f0f5;
+    padding: 20px;
+    height: 548px;
+    padding-top: 50px;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-text img{
+    height:64px;
+    width: 186px;   
+}
+
+.column{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.col li{
+    text-align: start;
+   
+}
+
+.col1 img{
+    width: 180px;
+    height: 49px;
+}
+
+.column img,p,li,h3{
+    padding-bottom: 10px;
+    text-align: start;
+}
+
+.col3,.col5{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.col5-2 ul{
+    display: flex;
+    gap: 5px;
+}
